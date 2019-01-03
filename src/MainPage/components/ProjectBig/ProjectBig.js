@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -8,10 +8,8 @@ const styles = theme => ({
     flexGrow: 1,
     padding: theme.spacing.unit * 3,
     marginTop: '3rem',
-    // width: 'auto',
-    // height: '70vh',
     [theme.breakpoints.down('xs')]: {
-      padding: theme.spacing.unit
+      padding: theme.spacing.unit * 3
     },
     [theme.breakpoints.up('md')]: {
       width: '80vw',
@@ -20,70 +18,106 @@ const styles = theme => ({
     }
   },
   item: {
-    margin: theme.spacing.unit,
-    cursor: 'pointer'
+    margin: theme.spacing.unit
   },
   imgClass: {
     maxWidth: '100%',
-    transition: 'opacity ease-in-out .3s'
-    // '&:hover': {
-    //   opacity: 0.95
-    // }
+    transition: 'opacity ease-in-out .2s',
+    cursor: 'pointer',
+    '&:hover': {
+      opacity: 0.9
+    }
+  },
+  secret: {
+    transition: 'all ease-out .3s',
+    height: 0,
+    opacity: 0
+  },
+  clicked: {
+    height: '10rem',
+    opacity: 1
   }
 });
 
-const ProjectBig = props => {
-  const { classes } = props;
+class ProjectBig extends Component {
+  state = {
+    clicked: null
+  };
 
-  return (
-    <React.Fragment>
-      <div className={classes.root}>
-        <Grid
-          container
-          direction="row"
-          justify="space-between"
-          alignItems="flex-end"
-          spacing={8}
-        >
-          <Grid className={classes.item} item sm={5} xs={12}>
-            <Typography variant="h4" component="h4">
-              React & Material-UI
-            </Typography>
-            <Typography variant="body1">
-              Company Booking Platform App
-            </Typography>
-            <Typography color="textSecondary" variant="body2">
-              Multi-Company && Multi-User App for internal booking cars,
-              conference rooms, equipment etc.
-            </Typography>
+  render() {
+    const {
+      classes,
+      category,
+      name,
+      details,
+      technologies,
+      secret,
+      img
+    } = this.props;
+    return (
+      <React.Fragment>
+        <div className={classes.root}>
+          <Grid
+            container
+            direction="row"
+            justify="space-between"
+            alignItems="flex-end"
+            spacing={8}
+          >
+            <Grid className={classes.item} item sm={5} xs={12}>
+              <Typography variant="h4" component="h4">
+                {name}
+              </Typography>
+              <Typography variant="body1">{category}</Typography>
+              <Typography color="textSecondary" variant="body2">
+                {details}
+              </Typography>
+            </Grid>
+            <Grid className={classes.item} item sm={5} xs={12}>
+              <Typography variant="body1">Technologies</Typography>
+              <Typography color="textSecondary" variant="body2">
+                {technologies}
+              </Typography>
+            </Grid>
+            <Grid className={classes.item} item xs={12}>
+              <Typography
+                className={
+                  this.state.clicked
+                    ? `${classes.secret} ${classes.clicked}`
+                    : classes.secret
+                }
+                color="textSecondary"
+                variant="body2"
+              >
+                {secret}
+              </Typography>
+            </Grid>
           </Grid>
-          <Grid className={classes.item} item sm={5} xs={12}>
-            <Typography variant="body1">Technologies</Typography>
-            <Typography color="textSecondary" variant="body2">
-              React.js, Context API, JSX, Axios, Firebase, Material-UI
-            </Typography>
+
+          <Grid
+            container
+            direction="row"
+            justify="center"
+            alignItems="stretch"
+            spacing={24}
+          >
+            <Grid className={classes.item} item sm={12} xs={12}>
+              <div
+                onClick={() => this.setState({ clicked: !this.state.clicked })}
+                className={classes.imageContainer}
+              >
+                <img
+                  className={classes.imgClass}
+                  src={require(`../../../assets/images/${img}.jpg`)}
+                  alt=""
+                />
+              </div>
+            </Grid>
           </Grid>
-        </Grid>
-        <Grid
-          container
-          direction="row"
-          justify="center"
-          alignItems="stretch"
-          spacing={24}
-        >
-          <Grid className={classes.item} item sm={12} xs={12}>
-            <div className={classes.imageContainer}>
-              <img
-                className={classes.imgClass}
-                src={require(`../../../assets/images/${props.img}.jpg`)}
-                alt=""
-              />
-            </div>
-          </Grid>
-        </Grid>
-      </div>
-    </React.Fragment>
-  );
-};
+        </div>
+      </React.Fragment>
+    );
+  }
+}
 
 export default withStyles(styles)(ProjectBig);

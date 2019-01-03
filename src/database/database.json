@@ -1,0 +1,36 @@
+[
+  {
+    "React_reserved": {
+      "category": "React & Material-UI",
+      "name": "Company Booking Platform App",
+      "details": "Multi-Company && Multi-User App for internal booking cars, conference rooms, equipment etc.",
+      "technologies": "React.js, Context API, JSX, Axios, Firebase, Material-UI",
+      "secret": "hidden info",
+      "img": "React_reserved"
+    },
+    "React_business": {
+      "category": "React & Material-UI",
+      "name": "React Business",
+      "details": "Static sample RWD webpage for business",
+      "technologies": "React.js JSX JSS Material-UI",
+      "secret": "hidden info",
+      "img": "React_business"
+    },
+    "React_calories": {
+      "category": "React & Material-UI",
+      "name": "React calories",
+      "details": "App for calculating daily intake&burn calories",
+      "technologies": "React.js JSX CSSModules + JSS Material-UI",
+      "secret": "hidden info",
+      "img": "React_calories"
+    },
+    "React_travel_weather": {
+      "category": "React",
+      "name": "React Travel Weather",
+      "details": "App weather forecast for multi cities. Usage of OpenWeatherMap API by axios, additional data stored in local storage.",
+      "technologies": "React.js JSX CSSModules axios local-storage",
+      "secret": "hidden info",
+      "img": "React_travel_weather"
+    }
+  }
+]

@@ -2,57 +2,64 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import BackgroundHeader from '../../../assets/images/header_back3.jpg';
+import BackgroundHeader from '../../../assets/images/header_back9.jpg';
 
 const styles = theme => ({
   root: {
     flexGrow: 1,
     // padding: theme.spacing.unit * 3,
-    marginTop: '3rem',
-    minHeight: '60vh'
-    // backgroundColor: 'pink'
+    paddingTop: '10rem',
+    minHeight: '60vh',
+    // background: 'linear-gradient(to right, #abbaab, #ffffff)'
+    background: 'none'
   },
   item: {
     margin: theme.spacing.unit
   },
-  imgClass: {
-    maxWidth: '900px',
-    overflow: 'hidden',
-    [theme.breakpoints.down('sm')]: {
-      padding: theme.spacing.unit
-    }
-  },
   imageContainer: {
-    height: '60vh',
+    height: '80vh',
     backgroundImage: 'url(' + BackgroundHeader + ')',
     backgroundSize: 'cover',
-    backgroundPosition: 'right',
+    backgroundPosition: 'top right',
     backgroundRepeat: 'no-repeat',
     marginTop: '10rem'
   },
+  titleContainer: {
+    fontWeight: 'bold',
+    marginLeft: '6rem',
+    padding: '2rem',
+    right: 0,
+    maxWidth: '60rem',
+    fontSize: '3rem',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '1.5rem',
+      marginLeft: 0,
+      padding: '1rem'
+    }
+  },
   textTopContainer: {
     backgroundColor: 'white',
-    // color: 'white',
     fontWeight: 'bold',
-    padding: '2rem',
-    maxWidth: '45rem',
-    // height: '15rem',
+    padding: '3rem',
+    maxWidth: '55rem',
     fontSize: '1.5rem',
     marginTop: '-5rem',
-    position: 'absolute'
+    position: 'absolute',
+    right: 0,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '1rem',
+      padding: '1rem'
+    }
   },
   textBottomContainer: {
     backgroundColor: 'white',
-    // color: 'white',
     fontWeight: 'bold',
-    padding: '2rem',
-    // left: '20%',
+    padding: '3rem',
     right: 0,
-    maxWidth: '45rem',
-    // height: '15rem',
+    maxWidth: '55rem',
     fontSize: '1.5rem',
-    marginTop: '50vh',
-    position: 'absolute'
+    marginTop: '-5rem',
+    marginBottom: '3rem'
   }
 });
 
@@ -62,34 +69,45 @@ const Header = props => {
   return (
     <React.Fragment>
       <div className={classes.root}>
-        <Grid
-          container
-          direction="row"
-          justify="space-between"
-          alignItems="flex-end"
-          spacing={0}
-        >
-          <Grid className={classes.item} item sm={5} xs={12}>
-            <Typography variant="h4" component="h4">
-              React
-            </Typography>
-          </Grid>
-        </Grid>
+        <div className={classes.titleContainer}>
+          JSX, <span style={{ backgroundColor: '#fbc00c' }}>CSS Modules</span>,
+          HTTP request - Axios, Component lifecycle, HOCs, React router,{' '}
+          <span style={{ backgroundColor: '#fbc00c' }}>Context API</span>, error
+          handlig,{' '}
+          <span style={{ backgroundColor: '#fbc00c' }}>Material-UI</span>
+        </div>
         <div className={classes.imageContainer}>
           <div className={classes.textTopContainer}>
-            Lorem ipsum dolor{' '}
+            "A good designer must rely on experience, on precise, logic
+            thinking; and on pedantic exactness.{' '}
             <span style={{ backgroundColor: '#fbc00c' }}>
-              sit amet consectetur{' '}
+              No magic will do{' '}
             </span>
-            adipisicing elit. Ullam, itaque magnam repellendus!{' '}
-            <span style={{ backgroundColor: '#fbc00c' }}>Sequi corporis </span>,
-            quasi quos placeat.
+            ."
+            <p style={{ fontSize: '.7rem', textAlign: 'right' }}>
+              Niklaus Wirth
+            </p>
           </div>
-          <div className={classes.textBottomContainer}>
-            Ipsum dolor{' '}
-            <span style={{ backgroundColor: '#fbc00c' }}>consectetur </span>
-            Ullam, magnam repellendus! , quos placeat.
-          </div>
+          {/* <div className={classes.textTopContainer}>
+            "Walking on water and developing software from a specification are
+            easy,{' '}
+            <span style={{ backgroundColor: '#fbc00c' }}>
+              if both are frozen{' '}
+            </span>
+            ."
+            <p style={{ fontSize: '.7rem', textAlign: 'right' }}>
+              Edward V Berard
+            </p>
+          </div> */}
+        </div>
+        <div className={classes.textBottomContainer}>
+          <span style={{ backgroundColor: '#fbc00c' }}>IT professional </span>{' '}
+          experienced in implementing dedicated systems and enthusiastic to
+          learn new technologies. Always open to participate in exciting front
+          end projects that focus on web GUI{' '}
+          <span style={{ backgroundColor: '#fbc00c' }}>
+            React.js, Material-UI, ES6{' '}
+          </span>
         </div>
       </div>
     </React.Fragment>
