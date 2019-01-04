@@ -100,11 +100,11 @@ class NavBar extends React.Component {
         <div className={classes.link}>
           <a href="#projects">PROJECTS</a>
         </div>
+        {/* <div className={classes.link}>
+          <a href="#about">ABOUT ME</a>
+        </div> */}
         <div className={classes.link}>
-          <a href="#">ABOUT ME</a>
-        </div>
-        <div className={classes.link}>
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
       </div>
     );

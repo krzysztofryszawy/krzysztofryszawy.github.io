@@ -15,7 +15,7 @@ const styles = theme => ({
 });
 
 const SingleSmallProject = props => {
-  const { classes } = props;
+  const { classes, name, details, img } = props;
 
   return (
     <React.Fragment>
@@ -23,14 +23,13 @@ const SingleSmallProject = props => {
         <div className={classes.imageContainer}>
           <img
             className={classes.imgClass}
-            src={require(`../../../../assets/images/${props.img}.jpg`)}
+            src={require(`../../../../assets/images/${img}.jpg`)}
             alt=""
           />
         </div>
-        <Typography variant="h6">Company Booking Platform App</Typography>
+        <Typography variant="body1">{name}</Typography>
         <Typography color="textSecondary" variant="body2">
-          Multi-Company && Multi-User App for internal booking cars, conference
-          rooms, equipment etc.
+          {details}
         </Typography>
       </Grid>
     </React.Fragment>

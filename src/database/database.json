@@ -2,7 +2,7 @@
   {
     "React_reserved": {
       "category": "React & Material-UI",
-      "name": "Company Booking Platform App",
+      "name": "Company Booking Platform App 📌 ",
       "details": "Multi-Company && Multi-User App for internal booking cars, conference rooms, equipment etc.",
       "technologies": "React.js, Context API, JSX, Axios, Firebase, Material-UI",
       "secret": "hidden info",
@@ -10,7 +10,7 @@
     },
     "React_business": {
       "category": "React & Material-UI",
-      "name": "React Business",
+      "name": "Cassiopeia Salon ✂ SPA",
       "details": "Static sample RWD webpage for business",
       "technologies": "React.js JSX JSS Material-UI",
       "secret": "hidden info",
@@ -18,7 +18,7 @@
     },
     "React_calories": {
       "category": "React & Material-UI",
-      "name": "React calories",
+      "name": "Calories 🌭 vs 🏓",
       "details": "App for calculating daily intake&burn calories",
       "technologies": "React.js JSX CSSModules + JSS Material-UI",
       "secret": "hidden info",
@@ -26,11 +26,59 @@
     },
     "React_travel_weather": {
       "category": "React",
-      "name": "React Travel Weather",
+      "name": "Travel Weather 🌞",
       "details": "App weather forecast for multi cities. Usage of OpenWeatherMap API by axios, additional data stored in local storage.",
       "technologies": "React.js JSX CSSModules axios local-storage",
       "secret": "hidden info",
       "img": "React_travel_weather"
+    },
+    "React_StarWarsFlirt": {
+      "category": "React",
+      "name": "StarWars Flirt ❤ 🤖",
+      "details": "Web App for nerds (dating app in StarWars Universum) with data gathered from StarWars API",
+      "technologies": "React.js, CSSModules, axios{Multiple concurrent requests}, Composition model",
+      "secret": "hidden info",
+      "img": "React_StarWarsFlirt"
+    },
+    "React_CarApp": {
+      "category": "React",
+      "name": "CarApp 🚗 🔧",
+      "details": "Web App, holds in cloud all data of car maintenance (mileage, inspections dates, oil change dates, insurance dates etc.) Multi car support.",
+      "technologies": "React.js JSX CSSModules axios Firebase",
+      "secret": "hidden info",
+      "img": "React_CarApp"
+    }
+  },
+  {
+    "X1_position_fixed": {
+      "name": "Experiments with multi layer interface",
+      "details": "ES6/CSS/HTML5",
+      "img": "X1_position-fixed"
+    },
+    "X2_media_agency": {
+      "name": "Experiments with background switching",
+      "details": "ES6/CSS/HTML5",
+      "img": "X2_media_agency"
+    },
+    "X3_Berliner_fest": {
+      "name": "Experiments with simple solid layout",
+      "details": "ES6/CSS/HTML5",
+      "img": "X3_Berliner_fest"
+    },
+    "X5_toscana": {
+      "name": "Experiments with responsive CSS Grid layout",
+      "details": "ES6/CSS/HTML5 CSS-Grid",
+      "img": "X5_toscana"
+    },
+    "X6_Berlin_tour": {
+      "name": "Experiments with pseudoelements",
+      "details": "ES6/CSS/HTML5 CSS-pseudoelements",
+      "img": "X6_Berlin_tour"
+    },
+    "X8_BMW": {
+      "name": "CSS Grid layout with pseudoelements",
+      "details": "ES6/CSS/HTML5 CSS-Grid CSS-pseudoelements",
+      "img": "X8_BMW"
     }
   }
 ]

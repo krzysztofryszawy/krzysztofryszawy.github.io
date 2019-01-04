@@ -3,13 +3,14 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import SingleSmallProject from './SingleSmallProject/SingleSmallProject';
+import database_json from '../../../database/database.json';
 
 const styles = theme => ({
   root: {
     flexGrow: 1,
     padding: theme.spacing.unit * 3,
     [theme.breakpoints.down('xs')]: {
-      padding: theme.spacing.unit * 3
+      padding: theme.spacing.unit * 1
     },
     [theme.breakpoints.up('md')]: {
       width: '80vw',
@@ -28,6 +29,7 @@ const styles = theme => ({
 });
 
 const SmallProjects = props => {
+  const databaseSmallProjects = database_json[1];
   const { classes } = props;
 
   return (
@@ -40,12 +42,12 @@ const SmallProjects = props => {
           alignItems="flex-end"
           spacing={0}
         >
-          <SingleSmallProject img={'project2'} />
-          <SingleSmallProject img={'project3'} />
-          <SingleSmallProject img={'React_reserved'} />
-          <SingleSmallProject img={'project2'} />
-          <SingleSmallProject img={'project3'} />
-          <SingleSmallProject img={'React_reserved'} />
+          <SingleSmallProject {...databaseSmallProjects.X8_BMW} />
+          <SingleSmallProject {...databaseSmallProjects.X6_Berlin_tour} />
+          <SingleSmallProject {...databaseSmallProjects.X5_toscana} />
+          <SingleSmallProject {...databaseSmallProjects.X3_Berliner_fest} />
+          <SingleSmallProject {...databaseSmallProjects.X2_media_agency} />
+          <SingleSmallProject {...databaseSmallProjects.X1_position_fixed} />
         </Grid>
       </div>
     </React.Fragment>
