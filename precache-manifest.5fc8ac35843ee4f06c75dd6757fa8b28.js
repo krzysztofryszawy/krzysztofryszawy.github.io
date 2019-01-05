@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/React_travel_weather.48b4d817.jpg"
   },
   {
-    "revision": "71f4c60209009f52487c",
+    "revision": "45c61ba5bfd2615f8c7d",
     "url": "/krzysztofryszawy.github.io/static/css/main.068ae2a9.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/React_reserved.cf154609.jpg"
   },
   {
-    "revision": "71f4c60209009f52487c",
-    "url": "/krzysztofryszawy.github.io/static/js/main.71f4c602.chunk.js"
+    "revision": "45c61ba5bfd2615f8c7d",
+    "url": "/krzysztofryszawy.github.io/static/js/main.45c61ba5.chunk.js"
   },
   {
     "revision": "306824e2787cc8dd0092b0d7282b82e9",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/project3.2864de90.jpg"
   },
   {
-    "revision": "169b876a20a54bfcf8f712119c73e9e1",
+    "revision": "9df4f0dcc1c5f08d9bfd94711e3c1555",
     "url": "/krzysztofryszawy.github.io/index.html"
   }
 ];
