@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "48b4d817fc22e9ce4a83e0b6ddf6ab2e",
-    "url": "/krzysztofryszawy.github.io/static/media/React_travel_weather.48b4d817.jpg"
+    "revision": "cf154609f2d6179a45d00cb3aace786d",
+    "url": "/krzysztofryszawy.github.io/static/media/React_reserved.cf154609.jpg"
   },
   {
-    "revision": "8468d69536d897f659f7",
+    "revision": "3b8cdb5aca8845757657",
     "url": "/krzysztofryszawy.github.io/static/css/main.068ae2a9.chunk.css"
   },
   {
-    "revision": "3e8be55fcd906e0daa38",
-    "url": "/krzysztofryszawy.github.io/static/js/1.3e8be55f.chunk.js"
+    "revision": "c68e56cb3518852a0463",
+    "url": "/krzysztofryszawy.github.io/static/js/1.c68e56cb.chunk.js"
   },
   {
     "revision": "f90df186df94342b3c32",
     "url": "/krzysztofryszawy.github.io/static/js/runtime~main.f90df186.js"
   },
   {
-    "revision": "d6e2d352a1e8df637c77c7214418b677",
-    "url": "/krzysztofryszawy.github.io/static/media/header_back9.d6e2d352.jpg"
+    "revision": "242fe5674e07778026062259d9a818c7",
+    "url": "/krzysztofryszawy.github.io/static/media/pd19-10111.242fe567.jpg"
   },
   {
     "revision": "a995ccf5231dade7a09f4d786635ce4c",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/React_calories.4db9f9a4.jpg"
   },
   {
-    "revision": "cf154609f2d6179a45d00cb3aace786d",
-    "url": "/krzysztofryszawy.github.io/static/media/React_reserved.cf154609.jpg"
+    "revision": "3b8cdb5aca8845757657",
+    "url": "/krzysztofryszawy.github.io/static/js/main.3b8cdb5a.chunk.js"
   },
   {
-    "revision": "8468d69536d897f659f7",
-    "url": "/krzysztofryszawy.github.io/static/js/main.8468d695.chunk.js"
+    "revision": "48b4d817fc22e9ce4a83e0b6ddf6ab2e",
+    "url": "/krzysztofryszawy.github.io/static/media/React_travel_weather.48b4d817.jpg"
   },
   {
     "revision": "ccbc02b7f700557ee06fcd9bc97d8115",
@@ -68,15 +68,7 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/X8_BMW.2caf3e4f.jpg"
   },
   {
-    "revision": "41c061e8b1030526a67f86873299742c",
-    "url": "/krzysztofryszawy.github.io/static/media/project2.41c061e8.jpg"
-  },
-  {
-    "revision": "2864de907eeed47c199ffea73e96d73d",
-    "url": "/krzysztofryszawy.github.io/static/media/project3.2864de90.jpg"
-  },
-  {
-    "revision": "d4f332ad6492a9dee01d6b6ecdc03636",
+    "revision": "ea2fbb579fecfd4c8e450740cca646c8",
     "url": "/krzysztofryszawy.github.io/index.html"
   }
 ];
