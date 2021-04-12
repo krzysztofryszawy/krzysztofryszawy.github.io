@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cf154609f2d6179a45d00cb3aace786d",
-    "url": "/krzysztofryszawy.github.io/static/media/React_reserved.cf154609.jpg"
+    "revision": "b9eee2cfc4da68793c35",
+    "url": "/krzysztofryszawy.github.io/static/css/main.068ae2a9.chunk.css"
   },
   {
-    "revision": "75e032d078aca04d2b0f",
-    "url": "/krzysztofryszawy.github.io/static/css/main.068ae2a9.chunk.css"
+    "revision": "b9eee2cfc4da68793c35",
+    "url": "/krzysztofryszawy.github.io/static/js/main.b9eee2cf.chunk.js"
   },
   {
     "revision": "c68e56cb3518852a0463",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/React_calories.4db9f9a4.jpg"
   },
   {
-    "revision": "75e032d078aca04d2b0f",
-    "url": "/krzysztofryszawy.github.io/static/js/main.75e032d0.chunk.js"
+    "revision": "cf154609f2d6179a45d00cb3aace786d",
+    "url": "/krzysztofryszawy.github.io/static/media/React_reserved.cf154609.jpg"
   },
   {
     "revision": "48b4d817fc22e9ce4a83e0b6ddf6ab2e",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/X8_BMW.2caf3e4f.jpg"
   },
   {
-    "revision": "514323e6e78922bd3de516896529c19f",
+    "revision": "8a473a1fbe42106ed31877afb1e83ab0",
     "url": "/krzysztofryszawy.github.io/index.html"
   }
 ];

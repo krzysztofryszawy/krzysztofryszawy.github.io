@@ -1,13 +1,13 @@
 {
   "main.css": "/krzysztofryszawy.github.io/static/css/main.068ae2a9.chunk.css",
-  "main.js": "/krzysztofryszawy.github.io/static/js/main.75e032d0.chunk.js",
-  "main.js.map": "/krzysztofryszawy.github.io/static/js/main.75e032d0.chunk.js.map",
+  "main.js": "/krzysztofryszawy.github.io/static/js/main.b9eee2cf.chunk.js",
+  "main.js.map": "/krzysztofryszawy.github.io/static/js/main.b9eee2cf.chunk.js.map",
   "static/js/1.c68e56cb.chunk.js": "/krzysztofryszawy.github.io/static/js/1.c68e56cb.chunk.js",
   "static/js/1.c68e56cb.chunk.js.map": "/krzysztofryszawy.github.io/static/js/1.c68e56cb.chunk.js.map",
   "runtime~main.js": "/krzysztofryszawy.github.io/static/js/runtime~main.f90df186.js",
   "runtime~main.js.map": "/krzysztofryszawy.github.io/static/js/runtime~main.f90df186.js.map",
-  "static/media/X8_BMW.jpg": "/krzysztofryszawy.github.io/static/media/X8_BMW.2caf3e4f.jpg",
   "static/media/pd19-10111.jpg": "/krzysztofryszawy.github.io/static/media/pd19-10111.242fe567.jpg",
+  "static/media/React_CarApp.jpg": "/krzysztofryszawy.github.io/static/media/React_CarApp.a995ccf5.jpg",
   "static/media/React_StarWarsFlirt.jpg": "/krzysztofryszawy.github.io/static/media/React_StarWarsFlirt.1129b20d.jpg",
   "static/media/React_business.jpg": "/krzysztofryszawy.github.io/static/media/React_business.9fdeedca.jpg",
   "static/media/React_calories.jpg": "/krzysztofryszawy.github.io/static/media/React_calories.4db9f9a4.jpg",
@@ -18,9 +18,9 @@
   "static/media/X3_Berliner_fest.jpg": "/krzysztofryszawy.github.io/static/media/X3_Berliner_fest.1572109e.jpg",
   "static/media/X5_toscana.jpg": "/krzysztofryszawy.github.io/static/media/X5_toscana.a7f6b1e6.jpg",
   "static/media/X6_Berlin_tour.jpg": "/krzysztofryszawy.github.io/static/media/X6_Berlin_tour.c96aeed9.jpg",
-  "static/media/React_CarApp.jpg": "/krzysztofryszawy.github.io/static/media/React_CarApp.a995ccf5.jpg",
+  "static/media/X8_BMW.jpg": "/krzysztofryszawy.github.io/static/media/X8_BMW.2caf3e4f.jpg",
   "static/css/main.068ae2a9.chunk.css.map": "/krzysztofryszawy.github.io/static/css/main.068ae2a9.chunk.css.map",
   "index.html": "/krzysztofryszawy.github.io/index.html",
-  "precache-manifest.cf0ad225d1f3da27367f724c52688f77.js": "/krzysztofryszawy.github.io/precache-manifest.cf0ad225d1f3da27367f724c52688f77.js",
+  "precache-manifest.fdd48a7892bd30cb05cb8a1e71104922.js": "/krzysztofryszawy.github.io/precache-manifest.fdd48a7892bd30cb05cb8a1e71104922.js",
   "service-worker.js": "/krzysztofryszawy.github.io/service-worker.js"
 }
