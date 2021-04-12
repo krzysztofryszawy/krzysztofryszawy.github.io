@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b9eee2cfc4da68793c35",
+    "revision": "b01455f6028c38717ee9",
     "url": "/krzysztofryszawy.github.io/static/css/main.068ae2a9.chunk.css"
   },
   {
-    "revision": "b9eee2cfc4da68793c35",
-    "url": "/krzysztofryszawy.github.io/static/js/main.b9eee2cf.chunk.js"
+    "revision": "b01455f6028c38717ee9",
+    "url": "/krzysztofryszawy.github.io/static/js/main.b01455f6.chunk.js"
   },
   {
     "revision": "c68e56cb3518852a0463",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/krzysztofryszawy.github.io/static/media/X8_BMW.2caf3e4f.jpg"
   },
   {
-    "revision": "8a473a1fbe42106ed31877afb1e83ab0",
+    "revision": "606d035de56d5c0b066677c2f172c89c",
     "url": "/krzysztofryszawy.github.io/index.html"
   }
 ];

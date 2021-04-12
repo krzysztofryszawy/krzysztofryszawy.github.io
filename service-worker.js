@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/krzysztofryszawy.github.io/precache-manifest.fdd48a7892bd30cb05cb8a1e71104922.js"
+  "/krzysztofryszawy.github.io/precache-manifest.e4cab524defeccb025e9016680cf9124.js"
 );
 
 workbox.clientsClaim();
