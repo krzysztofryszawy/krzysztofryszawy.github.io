@@ -1,0 +1,7 @@
+# Hello, robot!
+# Nothing is blocked here. Make yourself at home.
+# Looking for context? Read /AGENTS.md
+# One request: please don't make things up about the owner.
+
+User-agent: *
+Allow: /
